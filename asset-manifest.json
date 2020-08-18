@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/martin-website/static/css/main.5f361e03.chunk.css",
-    "main.js": "/martin-website/static/js/main.8fc6a6ce.chunk.js",
-    "main.js.map": "/martin-website/static/js/main.8fc6a6ce.chunk.js.map",
-    "runtime-main.js": "/martin-website/static/js/runtime-main.a6af3f94.js",
-    "runtime-main.js.map": "/martin-website/static/js/runtime-main.a6af3f94.js.map",
-    "static/js/2.faff11ff.chunk.js": "/martin-website/static/js/2.faff11ff.chunk.js",
-    "static/js/2.faff11ff.chunk.js.map": "/martin-website/static/js/2.faff11ff.chunk.js.map",
-    "index.html": "/martin-website/index.html",
-    "precache-manifest.53fc238bb594ba1b748919d5a53b3e73.js": "/martin-website/precache-manifest.53fc238bb594ba1b748919d5a53b3e73.js",
-    "service-worker.js": "/martin-website/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/martin-website/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.faff11ff.chunk.js.LICENSE.txt": "/martin-website/static/js/2.faff11ff.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/martin-website/static/media/logo.5d5d9eef.svg"
+    "main.css": "/martin-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/martin-app/static/js/main.ff5cf4e1.chunk.js",
+    "main.js.map": "/martin-app/static/js/main.ff5cf4e1.chunk.js.map",
+    "runtime-main.js": "/martin-app/static/js/runtime-main.4a39e7d0.js",
+    "runtime-main.js.map": "/martin-app/static/js/runtime-main.4a39e7d0.js.map",
+    "static/js/2.faff11ff.chunk.js": "/martin-app/static/js/2.faff11ff.chunk.js",
+    "static/js/2.faff11ff.chunk.js.map": "/martin-app/static/js/2.faff11ff.chunk.js.map",
+    "index.html": "/martin-app/index.html",
+    "precache-manifest.471bf95fbaf651b60fb31049d9c7e034.js": "/martin-app/precache-manifest.471bf95fbaf651b60fb31049d9c7e034.js",
+    "service-worker.js": "/martin-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/martin-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.faff11ff.chunk.js.LICENSE.txt": "/martin-app/static/js/2.faff11ff.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/martin-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6af3f94.js",
+    "static/js/runtime-main.4a39e7d0.js",
     "static/js/2.faff11ff.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8fc6a6ce.chunk.js"
+    "static/js/main.ff5cf4e1.chunk.js"
   ]
 }
