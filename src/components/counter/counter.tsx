@@ -60,7 +60,7 @@ export class Counter extends React.Component<{}, ICounterState>{
     timeRemained = timeRemained%secondInMillis;
     const seconds = (timeDifference-timeRemained)/secondInMillis;
     
-    this.setState({timeLeft:days.toString() + " nap " + hours.toString()+" óra " + minutes.toString() + " perc " + seconds.toString() + " másodperc"});
+    this.setState({timeLeft:days.toString() + " nap " + hours.toString()+":" + minutes.toString() + ":" + seconds.toString()});
 }
 
     render(){
@@ -68,15 +68,14 @@ export class Counter extends React.Component<{}, ICounterState>{
             this.CalculateTime();
         },1000)
         return(
-            <div>
-                <div>
-                    A  + {this.yearOld.toString()} + . szülinapig hátralevő idő:  + 
+            <div style={{marginTop:100}}>
+                <div className="text">
+                    A  + {this.yearOld.toString()} + . szülinapig hátralévő idő:  + 
                 </div>
-                <div>
+                <div className="time">
                 {this.state.timeLeft}
                 </div>
-            </div>
-            
+            </div>       
         )
     }
 }

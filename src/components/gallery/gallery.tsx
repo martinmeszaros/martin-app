@@ -5,22 +5,21 @@ import * as path from 'path';
 
 export class Gallery extends React.Component<{}, {}>{
     private arrayOfImages = [];
-    private testFolder = '././images';
+    private testFolder = './../images';
     private fs = require('fs');
 
     constructor(props:any){
         super(props);
         this.arrayOfImages = this.fs.readdirSync(this.testFolder);
+        console.log(this.arrayOfImages);
     }
 
-    render(){
+    public render(){
             return(
-            <div>
-
+            <div className="container">
             {this.arrayOfImages.map(url=>{
             <img className="image" src={url}/>
             })}
-            
             </div>
             )
     }

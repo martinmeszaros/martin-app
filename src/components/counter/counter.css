@@ -1,0 +1,13 @@
+.text{
+    font-size: medium;
+    background-color: blue;
+    color:white;
+    text-align: center;
+}
+.time{
+    font-size: x-large;
+    font-weight: bold;
+    color:white;
+    background-color: blue;
+    text-align: center;
+}
